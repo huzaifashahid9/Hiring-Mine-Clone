@@ -171,7 +171,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 150px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .img-sec img{
     width: 50%;
@@ -182,6 +182,7 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
     color: white;
     background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
   
@@ -208,6 +209,7 @@ footer {
 .card{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     min-height: 250px;
     box-shadow: 0 6px 12px #0000001a;
     border-radius: 8px;
@@ -224,6 +226,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -235,12 +238,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    flex-wrap: wrap;
     gap: 5px;
 }
 
 .left{
     display: flex;
    flex-direction: column;
+    flex-wrap: wrap;
    align-items: flex-end;
    justify-content: space-between;
    gap: 10px;
